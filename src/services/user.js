@@ -10,6 +10,9 @@ export default {
   profile () {
     return apiService.apiAuth.get('/user/profile')
   },
+  updateProfile (data) {
+    return apiService.apiAuth.patch('/user/profile', data)
+  },
   refresh () {
     return apiService.apiAuth.patch('/user/refresh')
   },
@@ -35,5 +38,5 @@ export default {
   },
   deleteUser (id) {
     return apiService.apiAuth.delete(`/user/admin/${id}`)
-  }
+  },
 }
