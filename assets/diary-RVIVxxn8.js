@@ -1,0 +1,1 @@
+import{aT as r}from"./index-BpE4l8E1.js";const i={create(e){return r.apiAuth.post("/diary",e)},getAll(){return r.apiAuth.get("/diary/all")},get(){return r.api.get("/diary")},getId(e){return r.api.get("/diary/"+e)},update(e,t){return r.apiAuth.patch(`/diary/${e}`,t)},delete(e){return r.apiAuth.delete(`/diary/${e}`)}};export{i as d};
