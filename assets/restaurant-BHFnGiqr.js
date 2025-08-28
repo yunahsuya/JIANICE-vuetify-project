@@ -1,1 +1,0 @@
-import{aT as t}from"./index-BpE4l8E1.js";const a={get(){return t.api.get("/restaurant")},getByCity(r){return t.api.get(`/restaurant/city/${r}`)},search(r){return t.api.get("/restaurant/search",{params:r})}};export{a as r};
