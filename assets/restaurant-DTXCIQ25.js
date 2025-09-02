@@ -1,0 +1,1 @@
+import{aU as t}from"./index-KC8Fu95-.js";const a={get(){return t.api.get("/restaurant")},getByCity(r){return t.api.get(`/restaurant/city/${r}`)},search(r){return t.api.get("/restaurant/search",{params:r})}};export{a as r};
