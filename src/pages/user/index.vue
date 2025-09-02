@@ -3,8 +3,8 @@
     <v-row align="center" class="h-100" justify="center">
       <v-col class="text-center" cols="12">
         <v-progress-circular
-          color="orange-darken-2"
           indeterminate
+          color="orange-darken-2"
           size="64"
         />
         <p class="mt-4">正在載入...</p>
@@ -14,15 +14,15 @@
 </template>
 
 <script setup>
-  import { onMounted } from 'vue'
-  import { useRouter } from 'vue-router'
+import { onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 
-  const router = useRouter()
+const router = useRouter()
 
-  onMounted(() => {
-    // 自動重定向到基本資訊管理頁面
-    router.replace('/user/info')
-  })
+onMounted(() => {
+  // 自動重定向到基本資訊管理頁面
+  router.replace('/user/info')
+})
 </script>
 
 <route lang="yaml">

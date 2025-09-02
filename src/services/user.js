@@ -38,5 +38,5 @@ export default {
   },
   deleteUser (id) {
     return apiService.apiAuth.delete(`/user/admin/${id}`)
-  },
+  }
 }
